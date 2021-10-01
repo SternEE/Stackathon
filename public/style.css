@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+html {
+  background-color: #222;
+  color: white;
+}
+
+#pixelate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#pixeltable{
+  position:"absolute";
+  margin-left: "auto";
+  margin-right: "auto";
+  left: 0;
+  right: 0;
+  text-align: "center";
+  z-index: 9;
+  width: 640;
+  height: 480;
+  background-color: red;
+}
+td {
+  height: 20px;
+  width: 20px;
+  background-color: lightgray;
+  transition: background-color 0.35s ease;
+}
+
+.red {background-color: red;}
+.orange {background-color: orange;}
+.yellow {background-color: yellow;}
+.green {background-color: green;}
+.blue {background-color: blue;}
+.indigo {background-color: indigo;}
+.violet {background-color: violet;}
+.black {background-color: black;}
+.white {background-color: white;}
+.brown {background-color: brown;}
