@@ -171,7 +171,7 @@ function App (props) {
       <div style={{
       position:"absolute",
       top: props.point[1],
-      marginRight: props.point[0],
+      marginRight: -props.point[0],
       zIndex: 1,
       width: 20,
       height: 20,
